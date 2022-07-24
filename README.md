@@ -32,7 +32,7 @@ Place the YAML files you will be using in **.github/workflows** in your reposito
 | ---- | ---- |
 | Password Authentication | authenticates via password
 
-*Find the example file [here](https://github.com/textbase-sms/textbase-autodeploy/examples/deploy-password.yml)*
+*Find the example file [here](https://github.com/textbase-sms/textbase-autodeploy/blob/main/examples/deploy-password.yml)*
 
 ##### Step 1 - copying file to repository
 
@@ -88,7 +88,7 @@ If you're using a staging branch on your repository, you'll have to add this to 
 | ---- | ---- |
 | id_rsa.pub Authentication | authenticates via key
 
-*Find the example file [here](https://github.com/textbase-sms/textbase-autodeploy/examples/deploy-key.yml)*
+*Find the example file [here](https://github.com/textbase-sms/textbase-autodeploy/blob/main/examples/deploy-key.yml)*
 
 ##### Step 1 - copying file to repository
 
