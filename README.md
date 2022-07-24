@@ -45,7 +45,7 @@ After doing this, go to your repository, create a new file in `.github/workflows
 If you use this method, you'll need to set the variables for your servers IP, password and username as a secret to ensure it isn't seen by other people and your server doesn't get breached and overtaken by bad actors. **This is especially important for OSS repositories**.
 
 1. Head into the 'Settings' tab in your repository
-![settings tab](https://cdn.upload.systems/uploads/RfRfzaxz.png)
+![settings tab](https://cdn.upload.systems/uploads/w8dqJ770.png)
 
 2. After your in here, click on the "secrets" dropdown under security in your navigation bar on the left side and then click "Actions". This will bring you into the secrets tab for actions.
 ![actions secrets tab](https://cdn.upload.systems/uploads/NlgZkFoZ.png)
@@ -79,6 +79,7 @@ You can delete `echo "Done!"` if you wish.
 After you have save your script, your deployment workflow will automatically run on GitHub if setup correctly as GitHub has detected a push to the repository.
 
 If you're using a staging branch on your repository, you'll have to add this to the `branches` section of the YML file. You can do this here:
+
 ![staging branch eg](https://cdn.upload.systems/uploads/6KAQsIQn.png)
 
 ---
@@ -100,7 +101,7 @@ After doing this, go to your repository, create a new file in `.github/workflows
 If you use this method, you'll need to set the variables for your servers IP, password and username as a secret to ensure it isn't seen by other people and your server doesn't get breached and overtaken by bad actors. **This is especially important for OSS repositories**.
 
 1. Head into the 'Settings' tab in your repository
-![settings tab](https://cdn.upload.systems/uploads/RfRfzaxz.png)
+![settings tab](https://cdn.upload.systems/uploads/w8dqJ770.png)
 
 2. After your in here, click on the "secrets" dropdown under security in your navigation bar on the left side and then click "Actions". This will bring you into the secrets tab for actions.
 ![actions secrets tab](https://cdn.upload.systems/uploads/NlgZkFoZ.png)
@@ -134,4 +135,5 @@ You can delete `echo "Done!"` if you wish.
 After you have save your script, your deployment workflow will automatically run on GitHub if setup correctly as GitHub has detected a push to the repository.
 
 If you're using a staging branch on your repository, you'll have to add this to the `branches` section of the YML file. You can do this here:
+
 ![staging branch eg](https://cdn.upload.systems/uploads/6KAQsIQn.png)
